@@ -113,6 +113,7 @@ function fixHead($compile, $window) {
       
       header.original.on('$destroy', function () {
         header.clone.remove();
+        table.clone.remove();
       });
     };
   }
